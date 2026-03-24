@@ -39,4 +39,5 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- For security incidents, follow the security incident runbook and notify Security on-call; the **Security Champion** leads initial triage and coordinates with the central security team
+- For customer-impacting issues, the **Customer Success Manager** escalates via PM to ensure customer communication is coordinated
