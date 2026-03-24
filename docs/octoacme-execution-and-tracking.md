@@ -20,8 +20,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Security scanning in CI (owned by the **Security Champion** in coordination with the **DevOps Engineer**)
+- Manual QA for feature acceptance coordinated by the **QA Lead**
+- QA Lead provides release readiness sign-off before deployment proceeds
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,8 +30,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 1: Team-level triage in daily standup (Developers, QA Lead, DevOps Engineer)
+- Level 2: PM escalates to Product Lead and dependent teams; DevOps Engineer escalates infrastructure or pipeline blockers
 - Level 3: Sponsor-level escalation for business-impacting issues
 
 ## Execution Checklist
